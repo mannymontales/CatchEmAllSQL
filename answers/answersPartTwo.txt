@@ -1,0 +1,19 @@
+What are all the types of pokemon that a pokemon can have?
+select name from types t ;
+
+
+What is the name of the pokemon with id 45? 
+SELECT * FROM pokemons 
+WHERE id = 45;
+
+
+How many pokemon are there?
+SELECT COUNT(id) from pokemons; 
+
+
+How many types are there?
+select count(name) from types t ;
+
+
+How many pokemon have a secondary type?
+select count(secondary_type) from pokemons p  ;
